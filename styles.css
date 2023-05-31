@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
+.body {
+  width: 1200px;
+}
+
+@media only screen and (max-width: 575px) {
+  .container div {
+      font-size: 14px;
+
+}
+}
+
+@media only screen and (max-width: 575px) {
+  .container p {
+      font-size: 14px;
+
+}
+}
+
+@media only screen and (max-width: 575px) {
+  .container {
+      font-size: 14px;
+
+}
+}
+
+/* Global Styles */
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+    header {
+    background-color: #ffffff;
+    padding: 10px;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+.container {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+
+}
+  
+.column {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+}
+
+h1{ 
+  font-size: 50px;
+  font-weight: bolder;
+  color: #FFFFFF;
+  text-align: center;
+} 
+
+p {
+  font-size: 20px;
+  font-weight: 300;
+    align-items: center;
+  text-align: center;
+}
+
+.bgimg {
+  font-size: 35px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  background-image: url('https://www.brunoauger.com/wp-content/uploads/2022/05/seo-company-in-Thunder-Bay.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:350px 700px;
+}
+
+button {
+  padding: 15px;
+  background-color: #266ebe;
+  border: solid 1px #fff;
+  border-radius: 30px;
+  color: white;
+}
+
+h2 {
+  align-items: center;
+  text-align: center;
+  margin: 20px 150px;
+}
+
+h3 {
+  align-items: center;
+  text-align: center;
+  margin: 10px 300px;
+}
+p {
+  align-items: center;
+  text-align: justify;
+  margin: 20px 100px;
+}
+
+h4 {
+  align-items: center;
+  text-align: justify;
+  margin: 10px 30px;
+  font-size: larger;
+  padding: 5px 100px;
+}
+
+h5 {
+  align-items: center;
+  text-align: justify;
+  font-size: xx-large;
+  margin: 30px 300px;
+  color: rgb(40, 43, 221);
+}
+
+
+
+
